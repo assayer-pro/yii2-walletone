@@ -1,0 +1,27 @@
+{
+  "name": "assayer-pro/yii2-walletone",
+  "description": "Yii2 wrapper payment form and widget Wallet One Payment Systems",
+  "homepage": "https://github.com/assayer-pro/yii2-walletone",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+        "name": "Assayer Pro",
+        "homepage" : "https://github.com/assayer-pro"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.6",
+  },
+  "autoload": {
+    "psr-4": {
+      "assayerpro\\WalletOne\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
